@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec 18 21:33:24 2023
+const setCurrentYear = () => {
+    const currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+}
 
-@author: simonmeyer
-"""
 document.addEventListener("DOMContentLoaded", function() {
+    setCurrentYear();
+
     var footer = document.getElementById("dynamic-footer");
     var lastScrollTop = 0;
 
