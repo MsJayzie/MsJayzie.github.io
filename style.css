@@ -72,19 +72,19 @@ header p {
 }
 
 .team-section li:nth-child(1) .team-member-content {
-    background-image: url('images/team/Luca.jpeg');
+    background-image: url('images/Luca.jpeg');
 }
 
 .team-section li:nth-child(2) .team-member-content {
-    background-image: url('images/team/Nico.jpeg');
+    background-image: url('images/Nico.jpeg');
 }
 
 .team-section li:nth-child(3) .team-member-content {
-    background-image: url('images/team/Alex.jpeg');
+    background-image: url('images/Alex.jpeg');
 }
 
 .team-section li:nth-child(4) .team-member-content {
-    background-image: url('images/team/Simon.jpeg');
+    background-image: url('images/Simon.jpeg');
 }
 
 
