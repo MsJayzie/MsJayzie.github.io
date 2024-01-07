@@ -57,8 +57,53 @@ header p {
 }
 
 .team-section li {
-    display: inline-block; /* Display list items horizontally */
-    margin: 0 10px; /* Adjust the margin between list items */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center vertically within the flex container */
+    margin: 40px auto;
+    text-align: left;
+}
+
+.team-member-content {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team-section li:nth-child(1) .team-member-content {
+    background-image: url('images/team/Luca.jpeg');
+}
+
+.team-section li:nth-child(2) .team-member-content {
+    background-image: url('images/team/Nico.jpeg');
+}
+
+.team-section li:nth-child(3) .team-member-content {
+    background-image: url('images/team/Alex.jpeg');
+}
+
+.team-section li:nth-child(4) .team-member-content {
+    background-image: url('images/team/Simon.jpeg');
+}
+
+
+.team-member-content {
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.team-member-details {
+    flex-grow: 1; /* Allow the text to take up available space */
+    margin-left: 20px; /* Adjust the margin between image and text */
+}
+
+.team-member-details h3, .team-member-details p {
+    color: white;
+    margin: 10px 0;
 }
 
 .team-section img {
