@@ -64,36 +64,12 @@ header p {
 }
 
 .team-member-content {
-    width: 100px;
-    height: 100px;
-    background-size: cover;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.team-section li:nth-child(1) .team-member-content {
-    background-image: url('images/Luca.jpeg');
-}
-
-.team-section li:nth-child(2) .team-member-content {
-    background-image: url('images/Nico.jpeg');
-}
-
-.team-section li:nth-child(3) .team-member-content {
-    background-image: url('images/Alex.jpeg');
-}
-
-.team-section li:nth-child(4) .team-member-content {
-    background-image: url('images/Simon.jpeg');
-}
-
-
-.team-member-content {
     width: 150px;
     height: 100px;
     background-size: cover;
     border-radius: 100%;
     overflow: hidden;
+    margin-left: 1%;
 }
 
 .team-member-details {
