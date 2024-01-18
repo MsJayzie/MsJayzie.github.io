@@ -64,8 +64,8 @@ header p {
 }
 
 .team-member-content {
-    width: 250px;
-    height: 100px;
+    width: 400px;
+    height: 120px;
     background-size: cover;
     border-radius: 100%;
     overflow: hidden;
