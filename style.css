@@ -14,18 +14,20 @@ header {
     color: white;
     padding: 50px;
     text-align: center;
-    font-size: 20px; 
+    font-size: 18px; 
 }
+
 header h1 {
     font-size: 60px; /* Adjust the font size for h1 */
+    text-align: center;
 }
 
 header p {
     font-size: 25px; /* Adjust the font size for p */
+    text-align: center;
 }
 
 .description {
-
     background-size: cover;
     padding: 40px;
     margin: 20px 0;
@@ -47,39 +49,16 @@ header p {
     font-size: 40px;
 }
 
-.team-section ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Center the list items */
+.team-section h3 {
+    text-align: center;
     color: white;
-
+    font-size: 30px;
 }
 
-.team-section li {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center vertically within the flex container */
-    margin: 40px auto;
-    text-align: left;
-}
-
-.team-member-content {
-    width: 150px;
-    height: 100px;
-    background-size: cover;
-    border-radius: 100%;
-    overflow: hidden;
-    margin-left: 1%;
-}
-
-.team-member-details {
-    flex-grow: 1; /* Allow the text to take up available space */
-    margin-left: 20px; /* Adjust the margin between image and text */
-}
-
-.team-member-details h3, .team-member-details p {
+.team-section p {
+    text-align: center;
     color: white;
-    margin: 10px 0;
+    font-size: 25px;
 }
 
 .team-section img {
@@ -90,17 +69,6 @@ header p {
     margin-bottom: 20px; /* Optional: Add space between image and name */
 } 
 
-.team-section h3, p{
-    text-align: center;
-    }
-    
-.pic {
-  width: 150px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%; /* Optional: Add rounded corners to the images */
-}
 
 footer {
     background-color: #333;
