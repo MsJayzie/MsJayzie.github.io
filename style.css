@@ -21,6 +21,13 @@ header h1 {
     text-align: center;
 }
 
+.a {
+    font-size: 60px; /* Adjust the font size for h1 */
+    text-align: center;
+    color: green;
+
+}
+
 header p {
     font-size: 30px; /* Adjust the font size for p */
     text-align: center;
