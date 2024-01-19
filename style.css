@@ -14,7 +14,6 @@ header {
     color: white;
     padding: 50px;
     text-align: center;
-    font-size: 18px; 
 }
 
 header h1 {
@@ -40,7 +39,7 @@ header p {
 }
 
 .description p {
-    font-size: 15px; /* Adjust the font size for p */
+    font-size: 17px; /* Adjust the font size for p */
 }
 
 .team-section h2 {
@@ -58,7 +57,7 @@ header p {
 .team-section p {
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .team-section img {
@@ -67,6 +66,7 @@ header p {
     height: 100px; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: Add rounded corners to the images */
     margin-bottom: 20px; /* Optional: Add space between image and name */
+    margin: 20px auto; /* Center the image horizontally */
 } 
 
 
