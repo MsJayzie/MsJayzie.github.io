@@ -23,7 +23,7 @@ header h1 {
 
 .word {
     color: darkgreen;
-    font-style: italic; /* Make the text italic */
+    font-family: Arial, cursive;
 }
 
 header p {
