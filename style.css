@@ -75,7 +75,7 @@ header p {
     max-width: 100%; /* Ensure images don't exceed their container */
     height: 100px; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: Add rounded corners to the images */
-    margin: 5px auto; /* Center the image horizontally and add space top/bottom */
+    margin: 0px auto; /* Center the image horizontally and add space top/bottom */
 }
 
 footer {
