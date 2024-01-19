@@ -61,14 +61,11 @@ header p {
 }
 
 .team-section img {
-    text-align: center;
     max-width: 100%; /* Ensure images don't exceed their container */
     height: 100px; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: Add rounded corners to the images */
-    margin-bottom: 20px; /* Optional: Add space between image and name */
-    margin: 20px auto; /* Center the image horizontally */
-} 
-
+    margin: 20px auto; /* Center the image horizontally and add space top/bottom */
+}
 
 footer {
     background-color: #333;
