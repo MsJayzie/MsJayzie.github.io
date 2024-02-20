@@ -139,7 +139,4 @@ footer {
   text-decoration: none;
 }
 
-.content {
-  height: 2000px; /* Just for demonstration */
-  padding-top: 60px; /* Ensure content doesn't hide behind navbar */
-}
+
