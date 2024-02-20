@@ -98,7 +98,7 @@ footer {
 /*Navigation bar*/
 
 .navbar {
-  background-color: #000;
+  background-color: rgba(128, 128, 128, 0.7); /* Grauer Hintergrund mit Alpha-Wert 0.7 für 70% Deckkraft */
   color: #fff;
   padding: 10px 0;
   position: fixed;
