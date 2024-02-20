@@ -23,3 +23,12 @@ document.addEventListener("DOMContentLoaded", function() {
         lastScrollTop = st;
     });
 });
+
+// Zum Beispiel für ein Dropdown-Menü bei kleineren Bildschirmgrößen
+const navLinks = document.querySelector('.nav-links');
+
+function toggleMenu() {
+  navLinks.classList.toggle('active');
+}
+
+document.querySelector('.navbar').addEventListener('click', toggleMenu);
